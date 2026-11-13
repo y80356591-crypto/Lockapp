@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1A1A2E"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ဖုန်း လော့ခ် ချထားသည်"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password ရိုက်ထည့်ပါ"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        android:background="#2A2A4A"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/unlockBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unlock"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#E94560"/>
+
+</LinearLayout>
